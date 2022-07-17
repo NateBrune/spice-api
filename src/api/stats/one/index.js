@@ -2,13 +2,9 @@ const { getSushiLpApys } = require('./getSushiApys');
 const getCurveApys = require('./getCurveApys');
 const { getOneBifiGovApy } = require('./getOneBifiGovApy');
 const { getOneBifiMaxiApy } = require('./getOneBifiMaxiApy');
+const { createImportSpecifier } = require('typescript');
 
-const getApys = [
-  getSushiLpApys,
-  getCurveApys,
-  getOneBifiGovApy,
-  getOneBifiMaxiApy
-];
+const getApys = [getSushiLpApys, getCurveApys, getOneBifiGovApy, getOneBifiMaxiApy];
 
 const getOneApys = async () => {
   let apys = {};

@@ -54,6 +54,7 @@
     "ethers": "^5.0.26",
     "graphql": "^15.5.0",
     "graphql-tag": "^2.12.4",
+    "graphqurl": "^1.0.1",
     "husky": "^6.0.0",
     "koa": "^2.13.0",
     "koa-bodyparser": "^4.3.0",

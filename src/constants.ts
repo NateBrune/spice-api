@@ -112,59 +112,11 @@ const MULTICHAIN_RPC: Record<ChainId, string> = {
   [ChainId.optimism]: OPTIMISM_RPC,
 };
 
-const BSC_VAULTS_ENDPOINT =
-  'https://raw.githubusercontent.com/beefyfinance/beefy-v2/prod/src/config/vault/bsc.json';
-const HECO_VAULTS_ENDPOINT =
-  'https://raw.githubusercontent.com/beefyfinance/beefy-v2/prod/src/config/vault/heco.json';
-const AVAX_VAULTS_ENDPOINT =
-  'https://raw.githubusercontent.com/beefyfinance/beefy-v2/prod/src/config/vault/avax.json';
 const POLYGON_VAULTS_ENDPOINT =
   'https://raw.githubusercontent.com/beefyfinance/beefy-v2/prod/src/config/vault/polygon.json';
-const FANTOM_VAULTS_ENDPOINT =
-  'https://raw.githubusercontent.com/beefyfinance/beefy-v2/prod/src/config/vault/fantom.json';
-const ONE_VAULTS_ENDPOINT =
-  'https://raw.githubusercontent.com/beefyfinance/beefy-v2/prod/src/config/vault/harmony.json';
-const ARBITRUM_VAULTS_ENDPOINT =
-  'https://raw.githubusercontent.com/beefyfinance/beefy-v2/prod/src/config/vault/arbitrum.json';
-const CELO_VAULTS_ENDPOINT =
-  'https://raw.githubusercontent.com/beefyfinance/beefy-v2/prod/src/config/vault/celo.json';
-const MOONRIVER_VAULTS_ENDPOINT =
-  'https://raw.githubusercontent.com/beefyfinance/beefy-v2/prod/src/config/vault/moonriver.json';
-const CRONOS_VAULTS_ENDPOINT =
-  'https://raw.githubusercontent.com/beefyfinance/beefy-v2/prod/src/config/vault/cronos.json';
-const AURORA_VAULTS_ENDPOINT =
-  'https://raw.githubusercontent.com/beefyfinance/beefy-v2/prod/src/config/vault/aurora.json';
-const FUSE_VAULTS_ENDPOINT =
-  'https://raw.githubusercontent.com/beefyfinance/beefy-v2/prod/src/config/vault/fuse.json';
-const METIS_VAULTS_ENDPOINT =
-  'https://raw.githubusercontent.com/beefyfinance/beefy-v2/prod/src/config/vault/metis.json';
-const MOONBEAM_VAULTS_ENDPOINT =
-  'https://raw.githubusercontent.com/beefyfinance/beefy-v2/prod/src/config/vault/moonbeam.json';
-//  const SYS_VAULTS_ENDPOINT =
-//  'https://raw.githubusercontent.com/beefyfinance/beefy-v2/prod/src/config/vault/sys.json';
-const EMERALD_VAULTS_ENDPOINT =
-  'https://raw.githubusercontent.com/beefyfinance/beefy-v2/prod/src/config/vault/emerald.json';
-const OPTIMISM_VAULTS_ENDPOINT =
-  'https://raw.githubusercontent.com/beefyfinance/beefy-v2/prod/src/config/vault/optimism.json';
 
 const MULTICHAIN_ENDPOINTS = {
-  bsc: BSC_VAULTS_ENDPOINT,
-  avax: AVAX_VAULTS_ENDPOINT,
   polygon: POLYGON_VAULTS_ENDPOINT,
-  fantom: FANTOM_VAULTS_ENDPOINT,
-  one: ONE_VAULTS_ENDPOINT,
-  arbitrum: ARBITRUM_VAULTS_ENDPOINT,
-  celo: CELO_VAULTS_ENDPOINT,
-  moonriver: MOONRIVER_VAULTS_ENDPOINT,
-  cronos: CRONOS_VAULTS_ENDPOINT,
-  aurora: AURORA_VAULTS_ENDPOINT,
-  fuse: FUSE_VAULTS_ENDPOINT,
-  metis: METIS_VAULTS_ENDPOINT,
-  moonbeam: MOONBEAM_VAULTS_ENDPOINT,
-  // sys: SYS_VAULTS_ENDPOINT,
-  emerald: EMERALD_VAULTS_ENDPOINT,
-  optimism: OPTIMISM_VAULTS_ENDPOINT,
-  heco: HECO_VAULTS_ENDPOINT,
 };
 
 const BEEFY_PERFORMANCE_FEE = 0.045;
@@ -174,58 +126,9 @@ const EXCLUDED_IDS_FROM_TVL = ['venus-wbnb'];
 
 export {
   API_BASE_URL,
-  BSC_RPC,
-  BSC_RPC_ENDPOINTS,
-  BSC_CHAIN_ID,
-  BSC_VAULTS_ENDPOINT,
-  HECO_RPC,
-  HECO_CHAIN_ID,
-  HECO_VAULTS_ENDPOINT,
-  AVAX_RPC,
-  AVAX_CHAIN_ID,
-  AVAX_VAULTS_ENDPOINT,
   POLYGON_RPC,
   POLYGON_CHAIN_ID,
   POLYGON_VAULTS_ENDPOINT,
-  FANTOM_RPC,
-  FANTOM_CHAIN_ID,
-  FANTOM_VAULTS_ENDPOINT,
-  ONE_RPC,
-  ONE_CHAIN_ID,
-  ONE_VAULTS_ENDPOINT,
-  ARBITRUM_RPC,
-  ARBITRUM_CHAIN_ID,
-  ARBITRUM_VAULTS_ENDPOINT,
-  CELO_RPC,
-  CELO_CHAIN_ID,
-  CELO_VAULTS_ENDPOINT,
-  MOONRIVER_RPC,
-  MOONRIVER_CHAIN_ID,
-  MOONRIVER_VAULTS_ENDPOINT,
-  CRONOS_RPC,
-  CRONOS_CHAIN_ID,
-  CRONOS_VAULTS_ENDPOINT,
-  AURORA_RPC,
-  AURORA_CHAIN_ID,
-  AURORA_VAULTS_ENDPOINT,
-  FUSE_RPC,
-  FUSE_CHAIN_ID,
-  FUSE_VAULTS_ENDPOINT,
-  METIS_RPC,
-  METIS_CHAIN_ID,
-  METIS_VAULTS_ENDPOINT,
-  MOONBEAM_RPC,
-  MOONBEAM_CHAIN_ID,
-  MOONBEAM_VAULTS_ENDPOINT,
-  SYS_RPC,
-  SYS_CHAIN_ID,
-  // SYS_VAULTS_ENDPOINT,
-  EMERALD_RPC,
-  EMERALD_CHAIN_ID,
-  EMERALD_VAULTS_ENDPOINT,
-  OPTIMISM_RPC,
-  OPTIMISM_CHAIN_ID,
-  OPTIMISM_VAULTS_ENDPOINT,
   BASE_HPY,
   MINUTELY_HPY,
   HOURLY_HPY,
